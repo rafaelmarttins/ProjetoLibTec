@@ -1,0 +1,15 @@
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.csproj.AssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.AssemblyInfo.cs
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\bin\Debug\net6.0\LibTec.Repository.deps.json
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\bin\Debug\net6.0\LibTec.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\bin\Debug\net6.0\LibTec.Repository.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\bin\Debug\net6.0\LibTec.Domain.EF.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\bin\Debug\net6.0\LibTec.Domain.EF.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.csproj.CopyComplete
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\refint\LibTec.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\LibTec.Repository.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Repository\obj\Debug\net6.0\ref\LibTec.Repository.dll

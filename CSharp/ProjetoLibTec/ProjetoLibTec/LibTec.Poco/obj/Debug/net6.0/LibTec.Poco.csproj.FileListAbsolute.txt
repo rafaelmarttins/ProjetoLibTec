@@ -1,0 +1,12 @@
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\bin\Debug\net6.0\LibTec.Poco.deps.json
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\bin\Debug\net6.0\LibTec.Poco.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\bin\Debug\net6.0\LibTec.Poco.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.csproj.AssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.AssemblyInfo.cs
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\refint\LibTec.Poco.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\LibTec.Poco.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoLibTec\CSharp\ProjetoLibTec\ProjetoLibTec\LibTec.Poco\obj\Debug\net6.0\ref\LibTec.Poco.dll

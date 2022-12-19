@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibTecApi</name>
+    </assembly>
+    <members>
+        <member name="T:LibTecApi.Controllers.EmprestimoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Emprestimo por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.GetByStatusEmprestimo(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Emprestimo por código de Tipo Status Emprestimo.
+            </summary>
+            <param name="empcodigo"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Emprestimo.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.Post(LibTec.Poco.EmprestimoPoco)">
+            <summary>
+            Inclui um novo dado na tabela Emprestimo.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.Put(LibTec.Poco.EmprestimoPoco)">
+            <summary>
+            Altera um dado existente na tabela Emprestimo.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.EmprestimoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.ItemController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Item por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.GetByTipoItem(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Item por código de Tipo Item.
+            </summary>
+            <param name="tipcodigo"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Item.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.Post(LibTec.Poco.ItemPoco)">
+            <summary>
+            Inclui um novo dado na tabela Item.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.Put(LibTec.Poco.ItemPoco)">
+            <summary>
+            Altera um dado existente na tabela Item.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ItemController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.ReservaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Reserva por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.GetByStatusReserva(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Reserva por código de Tipo Status Reserva.
+            </summary>
+            <param name="rescodigo"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Reserva.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.Post(LibTec.Poco.ReservaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Reserva.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.Put(LibTec.Poco.ReservaPoco)">
+            <summary>
+            Altera um dado existente na tabela Reserva.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.ReservaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.TipoItemController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Tipo Item por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Tipo Item.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.Post(LibTec.Poco.TipoItemPoco)">
+            <summary>
+            Inclui um novo dado na tabela Tipo Item.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.Put(LibTec.Poco.TipoItemPoco)">
+            <summary>
+            Altera um dado existente na tabela Tipo Item.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoItemController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.TipoStatusEmprestimoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Tipo Status Emprestimo por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Tipo Status Emprestimo.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.Post(LibTec.Poco.TipoStatusEmprestimoPoco)">
+            <summary>
+            Inclui um novo dado na tabela Tipo Status Emprestimo.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.Put(LibTec.Poco.TipoStatusEmprestimoPoco)">
+            <summary>
+            Altera um dado existente na tabela Tipo Status Emprestimo.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusEmprestimoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.TipoStatusReservaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Tipo Status Reserva por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Tipo Status Reserva.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.Post(LibTec.Poco.TipoStatusReservaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Tipo Status Reserva.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.Put(LibTec.Poco.TipoStatusReservaPoco)">
+            <summary>
+            Altera um dado existente na tabela Tipo Status Reserva.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoStatusReservaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.TipoUsuarioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Tipo Usuario por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Tipo Usuario.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.Post(LibTec.Poco.TipoUsuarioPoco)">
+            <summary>
+            Inclui um novo dado na tabela Tipo Usuario.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.Put(LibTec.Poco.TipoUsuarioPoco)">
+            <summary>
+            Altera um dado existente na tabela Tipo Usuario.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.TipoUsuarioController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:LibTecApi.Controllers.UsuarioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.#ctor(LibTec.Domain.EF.LibTecContexto)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Usuario por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.GetByTipoUsuario(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Usuario por código de Tipo Usuario.
+            </summary>
+            <param name="tipcodigo"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.GetByMaxEmprestimo(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Usuario por código de Maximo Emprestimo.
+            </summary>
+            <param name="maxcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Usuario.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.Post(LibTec.Poco.UsuarioPoco)">
+            <summary>
+            Inclui um novo dado na tabela Usuario.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.Put(LibTec.Poco.UsuarioPoco)">
+            <summary>
+            Altera um dado existente na tabela Usuario.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:LibTecApi.Controllers.UsuarioController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+    </members>
+</doc>

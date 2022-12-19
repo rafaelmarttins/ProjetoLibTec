@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>Documents\LibTechApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibTec.Domain.EF\LibTec.Domain.EF.csproj" />
+    <ProjectReference Include="..\LibTec.Poco\LibTec.Poco.csproj" />
+    <ProjectReference Include="..\LibTec.Repository\LibTec.Repository.csproj" />
+    <ProjectReference Include="..\LibTec.Service\LibTec.Service.csproj" />
+  </ItemGroup>
+
+</Project>
